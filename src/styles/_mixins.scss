@@ -1,0 +1,43 @@
+.row-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  
+  &_bigger{
+    margin-top: 32px;
+    gap: 24px;
+  }
+
+  &__item{
+    padding: 8px 24px 8px 0;
+    width: 143px;
+  }
+}
+
+.nowrap {
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.nowrap_center{
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.wrap {
+  white-space: wrap;
+  display: inline-flex;
+}
+
+.no_padding{
+  padding: 0px;
+}
+
+.margin_bottom{
+  margin-bottom: 48px;
+}

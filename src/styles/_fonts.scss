@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Neue Regrade';
+  font-weight: 700;
+  src: url('../font/neue_regrade/Neue Regrade Bold.otf');
+}
+
+@font-face {
+  font-family: 'Neue Regrade';
+  font-weight: 600;
+  src: url('../font/neue_regrade/Neue Regrade Semibold.otf');
+}
+
+@font-face {
+  font-family: 'General Sans Variable';
+  src: url('../font/general-sans/GeneralSans-Bold.otf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'General Sans Variable';
+  src: url('../font/general-sans/GeneralSans-Semibold.otf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'General Sans Variable';
+  src: url('../font/general-sans/GeneralSans-Medium.otf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'General Sans Variable';
+  src: url('../font/general-sans/GeneralSans-Light.otf');
+  font-weight: 400;
+}
+
+h1 {
+  all: unset;
+  font-family: 'Neue Regrade';
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.h1 {
+  all: unset;
+  font-family: 'Neue Regrade';
+  font-size: 48px;
+  text-transform: uppercase;
+  line-height: 120%;
+  font-weight: 700;
+
+  &_midle-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+h2 {
+  all: unset;
+  font-family: 'Neue Regrade';
+  line-height: 140%;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3 {
+  all: unset;
+  font-family: 'Neue Regrade';
+  line-height: 140%;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h4 {
+  all: unset;
+  font-family: 'Neue Regrade';
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 140%;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+h5 {
+  font-family: 'General Sans Variable';
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 150%;
+  font-weight: 700;
+  color: var(--color-blue);
+  margin: 0;
+}
+
+p {
+  font-family: 'General Sans Variable';
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.color_black{
+  color: black;
+}
+
+.color_blue{
+  color: var(--color-blue);
+}
+
+.color_white{
+  color: white;
+}
+
+.middle-text{
+  text-align: center;
+  justify-content: center;
+}
+
+.text-small{
+  font-size: 14px;
+  font-family: 'General Sans Variable';
+  line-height: 180%;
+  font-weight: 400;
+}

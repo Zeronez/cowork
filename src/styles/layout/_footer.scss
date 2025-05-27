@@ -1,0 +1,44 @@
+footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.logo{
+  height: 20px;
+  margin-bottom: 16px;
+}
+
+[type="email"]{
+  padding: 0.5rem; 
+  width: 100%; 
+  margin-bottom: 1rem; 
+  border: none; 
+  border-bottom: 
+  1px solid #fff; 
+  background: transparent; 
+  color: #fff;
+
+  font-family: 'General Sans Variable';
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+}
+
+.links{
+  gap: 24px;
+    font-size: 14px;
+  &__header{
+    font-family: 'General Sans Variable';
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 150%;
+    font-weight: 700;
+    margin: 24px 0 8px 0;
+  }
+}
+
+.credits{
+  margin: 32px 0 0 0;
+}

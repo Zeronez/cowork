@@ -1,0 +1,15 @@
+:root{
+    --color-red: #FF3333;
+    --color-blue: #3139FB;
+    --color-yellow: #FFFADD;
+
+    --border: 1px solid black;
+    --border-radius: 24px;
+    --border-radius-small: 8px;
+    
+    --border-dashed: 5px dashed var(--color-blue);
+    
+    --container-width: 390px;
+    --container-padding-x: 16px;
+    --container-padding-y: 48px;
+}
